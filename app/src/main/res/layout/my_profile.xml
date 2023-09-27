@@ -11,16 +11,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
         tools:context=".MainActivity"
         tools:ignore="ExtraText">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="400dp"
-            android:layout_marginRight="115dp"
             android:layout_marginLeft="115dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginBottom="400dp"
             android:gravity="center"
             app:cardCornerRadius="275dp"
             app:cardElevation="0dp">
