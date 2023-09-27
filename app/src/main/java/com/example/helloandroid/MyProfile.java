@@ -22,7 +22,7 @@ public class MyProfile extends AppCompatActivity {
         setContentView(R.layout.my_profile);
         //setContentView(android.layout.activity_main);
 
-        textView = findViewById(R.id.text);
+        //textView = findViewById(R.id.text);
         textView.setText(R.string.hello_text);
 
         helloButton.setOnClickListener(new View.OnClickListener() {

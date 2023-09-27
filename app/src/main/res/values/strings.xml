@@ -5,6 +5,8 @@
     <string name="welcome_text">Welcome to Point Plan</string>
     <string name="hello_text">Hello!</string>
     <string name="profile_picture">picture</string>
+    <string name="my_full_name">Juhee Kang Johansson</string>
+
 
 <!-- colour -->
     <string name="red">Red</string>
