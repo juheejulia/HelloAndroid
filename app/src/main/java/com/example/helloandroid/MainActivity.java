@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.my_profile);
         //setContentView(android.layout.activity_main);
 
+
     //run 'activity_main.xml'
     /*
     TextView textView;
