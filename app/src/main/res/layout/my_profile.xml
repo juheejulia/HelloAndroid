@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -18,18 +18,17 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="115dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginRight="115dp"
-            android:layout_marginBottom="400dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="300dp"
             android:gravity="center"
-            app:cardCornerRadius="270dp"
-            app:cardElevation="30dp">
+            app:cardCornerRadius="275dp" >
 
             <ImageView
                 android:id="@+id/profilePicture"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:contentDescription="@string/profile_picture"
                 android:scaleType="centerCrop"
                 android:src="@drawable/juhee" />
@@ -39,18 +38,114 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/my_full_name"
+    android:id="@+id/my_full_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/my_full_name"
+    android:textColor="@color/light_grey"
+    android:textSize="@dimen/large_font"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_marginTop="270dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rob_role"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/round_fill_color"
-        android:text="@string/my_full_name"
-        android:textColor="@color/light_grey"
-        android:textSize="@dimen/small_font"
+        android:text="@string/job_role"
+        android:textColor="@color/gold_yellow"
+        android:textSize="@dimen/large_font"
+        android:textStyle="bold"
         android:layout_gravity="center"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/presentation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/presentation"
+        android:textColor="@color/light_grey"
+        android:textSize="@dimen/medium_font"
+        android:layout_gravity="center"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="330dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-/>
+        tools:context=".MainActivity" >
+
+        <Button
+            android:id="@+id/btn_cv"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/cv"
+            android:background="@drawable/round_line" />
+
+        <Button
+            android:id="@+id/btn_portfolio"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/portfolio"
+            android:background="@drawable/round_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="700dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity" >
+
+        <Button
+        android:id="@+id/btn_linkedin"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/linkedin_icon_2" />
+
+        <Button
+            android:id="@+id/btn_email"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/email_icon" />
+
+        <Button
+            android:id="@+id/btn_mobile"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/mobile_icon" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

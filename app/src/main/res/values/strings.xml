@@ -6,6 +6,12 @@
     <string name="hello_text">Hello!</string>
     <string name="profile_picture">picture</string>
     <string name="my_full_name">Juhee Kang Johansson</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="cv">CV</string>
+    <string name="job_role">App Developer</string>
+
+
+
 
 
 <!-- colour -->
@@ -26,7 +32,17 @@
     <string name="toast_text">Jag</string>
 
 <!-- default -->
-    <string name="defualt_body_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <string name="presentation">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Cras turpis sapien, rutrum sed cursus ut, porttitor at ipsum.
+        Pellentesque lobortis neque at accumsan mattis. In hac habitasse platea dictumst.
+        Etiam sed suscipit eros. Nunc consectetur arcu nec hendrerit lobortis.
+        In hac habitasse platea dictumst. Vestibulum vulputate elit eget nisl semper,
+        id consectetur ligula iaculis. Aliquam id lectus vitae quam malesuada sollicitudin.
+        Proin non ex dolor. Praesent vitae ligula vel neque commodo efficitur.
+        Duis tincidunt euismod porttitor. Phasellus venenatis tristique quam sed venenatis. </string>
+</resources>
+
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Cras turpis sapien, rutrum sed cursus ut, porttitor at ipsum.
         Pellentesque lobortis neque at accumsan mattis. In hac habitasse platea dictumst.
         Etiam sed suscipit eros. Nunc consectetur arcu nec hendrerit lobortis.
@@ -67,5 +83,4 @@
         Sed ornare pretium nisl ac commodo. Suspendisse potenti.
         Fusce odio enim, condimentum in convallis sed, laoreet ac dolor. Duis urna ex,
         laoreet ut finibus in, commodo ac sem.
-        Etiam in quam at leo finibus molestie sit amet eget justo.</string>
-</resources>
+        Etiam in quam at leo finibus molestie sit amet eget justo.-->
