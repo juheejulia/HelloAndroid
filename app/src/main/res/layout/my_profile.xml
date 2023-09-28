@@ -38,18 +38,18 @@
     </LinearLayout>
 
     <TextView
-    android:id="@+id/my_full_name"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/my_full_name"
-    android:textColor="@color/light_grey"
-    android:textSize="@dimen/large_font"
-    android:textStyle="bold"
-    android:layout_gravity="center"
-    android:layout_marginTop="270dp"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/my_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_full_name"
+        android:textColor="@color/light_grey"
+        android:textSize="@dimen/large_font"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="270dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/rob_role"
@@ -126,11 +126,11 @@
         tools:context=".MainActivity" >
 
         <Button
-        android:id="@+id/btn_linkedin"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_margin="10dp"
-        android:background="@drawable/linkedin_icon_2" />
+            android:id="@+id/btn_linkedin"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/linkedin_icon_2" />
 
         <Button
             android:id="@+id/btn_email"
