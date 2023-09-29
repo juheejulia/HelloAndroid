@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.HelloAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/gold_yellow</item>
+        <item name="colorPrimary">@color/beige</item>
         <item name="colorPrimaryVariant">@color/beige</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

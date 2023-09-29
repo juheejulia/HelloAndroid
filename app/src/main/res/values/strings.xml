@@ -1,6 +1,6 @@
 <resources>
 
-<!-- main page -->
+    <!-- main page -->
     <string name="app_name">My Android</string>
     <string name="welcome_text">Welcome to Point Plan</string>
     <string name="hello_text">Hello!</string>
@@ -9,12 +9,12 @@
     <string name="portfolio">Portfolio</string>
     <string name="cv">CV</string>
     <string name="job_role">App Developer</string>
+    <string name="btn_mobile">btn_mobile</string>
+    <string name="btn_email">btn_email</string>
+    <string name="btn_linkedin">btn_linkedin</string>
 
 
-
-
-
-<!-- colour -->
+    <!-- colour -->
     <string name="red">Red</string>
     <string name="orange">Orange</string>
     <string name="yellow">Yellow</string>
@@ -23,15 +23,15 @@
     <string name="indigo">Indigo</string>
     <string name="violet">Violet</string>
 
-<!-- language -->
+    <!-- language -->
     <string name="english">English</string>
     <string name="swedish">Svenska</string>
     <string name="korean">한국어</string>
 
-<!-- toast text -->
+    <!-- toast text -->
     <string name="toast_text">Jag</string>
 
-<!-- default -->
+    <!-- default -->
     <string name="presentation">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Cras turpis sapien, rutrum sed cursus ut, porttitor at ipsum.
         Pellentesque lobortis neque at accumsan mattis. In hac habitasse platea dictumst.
@@ -42,7 +42,7 @@
         Duis tincidunt euismod porttitor. Phasellus venenatis tristique quam sed venenatis. </string>
 </resources>
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Cras turpis sapien, rutrum sed cursus ut, porttitor at ipsum.
         Pellentesque lobortis neque at accumsan mattis. In hac habitasse platea dictumst.
         Etiam sed suscipit eros. Nunc consectetur arcu nec hendrerit lobortis.

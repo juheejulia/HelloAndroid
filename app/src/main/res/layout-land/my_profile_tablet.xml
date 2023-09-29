@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
 
     <!-- background -->
     <LinearLayout
@@ -12,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/dark_green" >
+        android:background="@color/dark_green">
     </LinearLayout>
 
     <!-- profile picture -->
@@ -20,7 +21,7 @@
         android:id="@+id/layout_picture"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
             android:layout_width="200dp"
@@ -52,7 +53,7 @@
         android:textSize="@dimen/large_font"
         android:textStyle="bold"
         android:layout_gravity="center"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="270dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -67,7 +68,7 @@
         android:textSize="@dimen/large_font"
         android:textStyle="bold"
         android:layout_gravity="center"
-        android:layout_marginTop="290dp"
+        android:layout_marginTop="300dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -77,7 +78,7 @@
         android:id="@+id/cv_portfolio"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:weightSum="2"
+        android:weightSum="4"
         android:orientation="horizontal"
         android:gravity="center"
         android:layout_marginTop="330dp"
@@ -117,66 +118,64 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textAlignment="center"
-        android:paddingLeft="25dp"
-        android:paddingRight="25dp"
-        android:paddingTop="25dp"
-        android:paddingBottom="25dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
         android:text="@string/presentation"
         android:textColor="@color/light_grey"
         android:textSize="@dimen/medium_font"
         android:layout_gravity="center"
         android:layout_marginTop="400dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- linkedIn, email, mobile -->
     <LinearLayout
-        android:id="@+id/linkedIn_email_mobile"
+        android:id="@+id/contact"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:orientation="horizontal"
-        android:gravity="center"
+        android:layout_height="50dp"
         android:layout_marginTop="700dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:context=".MainActivity" >
+        tools:context=".MainActivity">
 
         <ImageButton
             android:id="@+id/btn_linkedin"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/linkedin_icon_2"
             android:contentDescription="@string/btn_linkedin"
-            android:src="@drawable/linkedin_icon_2"
             android:scaleType="centerCrop"
+            android:src="@drawable/linkedin_icon_2"
             app:tint="@color/beige" />
 
         <ImageButton
             android:id="@+id/btn_email"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/email_icon"
             android:contentDescription="@string/btn_email"
-            android:src="@drawable/email_icon"
             android:scaleType="centerCrop"
+            android:src="@drawable/email_icon"
             app:tint="@color/beige" />
 
         <ImageButton
             android:id="@+id/btn_mobile"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/mobile_icon"
             android:contentDescription="@string/btn_mobile"
-            android:src="@drawable/mobile_icon"
             android:scaleType="centerCrop"
-            app:tint="@color/beige"/>
+            android:src="@drawable/mobile_icon"
+            app:tint="@color/beige" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
