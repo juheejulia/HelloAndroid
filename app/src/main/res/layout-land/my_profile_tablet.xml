@@ -123,6 +123,7 @@
         android:paddingTop="50dp"
         android:paddingBottom="50dp"
         android:text="@string/presentation"
+        android:scrollbars = "vertical"
         android:textColor="@color/light_grey"
         android:textSize="@dimen/medium_font"
         android:layout_gravity="center"

@@ -2,6 +2,7 @@ package com.example.helloandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     TextView jobRole;
     Button cvButton;
     Button portfolio;
-    TextView presentation;
+    TextView presentationTextView;
     ImageButton linkedinButton;
     ImageButton emailButton;
     ImageButton mobileButton;
@@ -30,10 +31,12 @@ public class MainActivity extends AppCompatActivity {
         myFullName = findViewById(R.id.full_name);
         jobRole = findViewById(R.id.job_role);
         portfolio = findViewById(R.id.btn_portfolio);
-        presentation = findViewById(R.id.presentation);
         linkedinButton = findViewById(R.id.btn_linkedin);
         emailButton = findViewById(R.id.btn_email);
         mobileButton = findViewById(R.id.btn_mobile);
+
+        presentationTextView = findViewById(R.id.presentation);
+        presentationTextView.setMovementMethod(new ScrollingMovementMethod());
 
         cvButton = findViewById(R.id.btn_cv);
         cvButton.setOnClickListener(new View.OnClickListener(){
