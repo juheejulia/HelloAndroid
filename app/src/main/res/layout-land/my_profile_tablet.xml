@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:text="@string/my_full_name"
         android:textColor="@color/light_grey"
-        android:textSize="@dimen/large_font"
+        android:textSize="@dimen/medium_font"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:layout_marginTop="270dp"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:text="@string/job_role"
         android:textColor="@color/beige"
-        android:textSize="@dimen/large_font"
+        android:textSize="@dimen/medium_font"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:layout_marginTop="300dp"
@@ -96,9 +96,9 @@
             android:layout_weight="1"
             android:layout_margin="10dp"
             android:text="@string/cv"
-            android:textSize="@dimen/large_font"
-            android:textColor="@color/beige"
-            android:background="@drawable/round_line_button" />
+            android:textSize="@dimen/medium_font"
+            android:textColor="@color/dark_green"
+            android:background="@drawable/round_button" />
 
         <Button
             android:id="@+id/btn_portfolio"
