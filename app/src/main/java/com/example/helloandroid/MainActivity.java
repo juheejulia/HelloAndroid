@@ -1,20 +1,16 @@
 package com.example.helloandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.graphics.Color;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView profilePicture;
-    TextView fullName, jobRole, presentationTextView;
+    TextView presentationTextView;
     Button cvButton, portfolioButton;
     ImageButton linkedinButton, emailButton, mobileButton;
 
@@ -24,15 +20,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.my_profile);
 
-        profilePicture = findViewById(R.id.profile_picture);
-        fullName = findViewById(R.id.full_name);
-        jobRole = findViewById(R.id.job_role);
-
         presentationTextView = findViewById(R.id.presentation);
         presentationTextView.setMovementMethod(new ScrollingMovementMethod());
 
         cvButton = findViewById(R.id.btn_cv);
-
         cvButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {

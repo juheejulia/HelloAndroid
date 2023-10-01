@@ -32,17 +32,15 @@
     <string name="toast_text">Jag</string>
 
     <!-- default -->
-    <string name="presentation">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Cras turpis sapien, rutrum sed cursus ut, porttitor at ipsum.
-        Pellentesque lobortis neque at accumsan mattis. In hac habitasse platea dictumst.
-        Etiam sed suscipit eros. Nunc consectetur arcu nec hendrerit lobortis.
-        In hac habitasse platea dictumst. Vestibulum vulputate elit eget nisl semper,
-        id consectetur ligula iaculis. Aliquam id lectus vitae quam malesuada sollicitudin.
-        Proin non ex dolor. Praesent vitae ligula vel neque commodo efficitur.
-        Duis tincidunt euismod porttitor. Phasellus venenatis tristique quam sed venenatis.
-        Vestibulum eget congue elit. Donec viverra eleifend laoreet.
-        Donec non tortor iaculis risus sodales vestibulum at sit amet magna.
-        Maecenas a ipsum ut neque placerat commodo. Mauris a ipsum et enim imperdiet mattis.</string>
+    <string name="presentation"> Jag studerar applikationsutveckling i KYH. Jag bor i Hällingsjö med
+    två barn och en make. Det är allid roligt att läsa mig nya teknik och förhoppningsvis jag ska
+    bli en bra apputveklare efter utblildningen. Det kommer alltid att kläckas kreativa idéer där
+    personer med olika erfarenhet och kulturell bakgrund samarbetar. En person som lägger vikt vid
+    kvalité och hjälper teamet att förbättra produkten med användarens perspektiv är en viktig
+    tillgång i teamet. Jag har bakgrund från pedagogisk verksamhet, är tjej i en mansdominerad
+    branch och växte upp i Sydkorea. Jag är två barns mamma och nu har blivit 40 år med olika
+    livserfarenhet. Jag tror att jag med den bakgrunden kan bidra till företaget mångfald och
+    innovationskraft, och komma med nya perspektiv.</string>
 </resources>
 
     <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.

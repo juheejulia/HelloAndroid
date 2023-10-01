@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars = "vertical"
     tools:context=".MainActivity"
     tools:ignore="MissingDefaultResource">
 
@@ -13,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:scrollbars = "vertical"
         android:background="@color/dark_green">
     </LinearLayout>
 
@@ -21,7 +23,7 @@
         android:id="@+id/layout_picture"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical" >
 
         <androidx.cardview.widget.CardView
             android:layout_width="200dp"
@@ -97,8 +99,8 @@
             android:layout_margin="10dp"
             android:text="@string/cv"
             android:textSize="@dimen/medium_font"
-            android:textColor="@color/dark_green"
-            android:background="@drawable/round_button" />
+            android:textColor="@color/beige"
+            android:background="@drawable/round_line_button" />
 
         <Button
             android:id="@+id/btn_portfolio"
